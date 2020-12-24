@@ -28,7 +28,7 @@
     
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="home-section">
-  
+  <?php include 'assets.php';?>
 
   <div id="overlayer"></div>
   <div class="loader">
@@ -238,6 +238,6 @@
       elem.innerHTML = window.location.hostname
     })
   </script>
-<?php include 'assets.php';?>
+
   </body>
 </html>
